@@ -1,4 +1,5 @@
 class Car {
+
     String brand;
     String model;
     int year;
@@ -10,6 +11,7 @@ class Car {
     }
 
     void displayInfo() {
+        System.out.println("Exercise 1:");
         System.out.println("Brand: " + brand + ", Model: " + model + ", Year: " + year);
     }
 
@@ -19,6 +21,7 @@ class Car {
 
     void stopEngine() {
         System.out.println("The car is stopping!");
+        System.out.println("__________________________");
     }
 }
 
@@ -55,7 +58,9 @@ public class Main {
         double[] studentGrades = {4.5, 3.0, 5.0, 4.0};
         Student student = new Student("Anna", studentGrades);
         double avg = student.calculateAverage();
+        System.out.println("Exercise 2:");
         System.out.println("Student: " + student.name);
         System.out.println("Average grade: " + avg);
+        System.out.println("__________________________");
     }
 }
